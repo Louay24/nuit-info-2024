@@ -7,7 +7,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/game" element={<Game />} />
-        <Route path="*" element={<NotFound />} /> {/* For unmatched routes */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
