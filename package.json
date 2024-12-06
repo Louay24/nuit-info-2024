@@ -2,7 +2,7 @@
   "name": "react-tailwind-css-starter-pack",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Louay24/nuit-info-2024.git",
+  "base": "https://connection-game-nuit-info.netlify.app",
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@types/react": "^19.0.0",
