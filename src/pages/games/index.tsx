@@ -116,11 +116,11 @@ export const Game = () => {
     setGameWon(false);
   };
 
-  const shuffleArray = (array) =>
+  const shuffleArray = (array: any) =>
     array
-      .map((item) => ({ item, sort: Math.random() }))
-      .sort((a, b) => a.sort - b.sort)
-      .map(({ item }) => item);
+      .map((item: any) => ({ item, sort: Math.random() }))
+      .sort((a: any, b: any) => a.sort - b.sort)
+      .map(({ item }: any) => item);
 
   const handleBodySelect = (body) =>
     setSelectedBody(body === selectedBody ? null : body);
